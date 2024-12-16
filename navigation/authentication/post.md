@@ -261,7 +261,7 @@ search_exclude: true
                 const postElement = document.createElement('div');
                 postElement.className = 'post-item';
                 postElement.innerHTML = `
-                    <h3>${postItem.title}</h3>
+                    <h3>${postItem.title}   </h3>
                     <p><strong>Channel:</strong> ${postItem.channel_name}</p>
                     <p><strong>User:</strong> ${postItem.user_name}</p>
                     <p>${postItem.comment}</p>
